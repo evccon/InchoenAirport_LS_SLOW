@@ -1,0 +1,90 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'androiddebugkey' // PINE64 KEY
+            keyPassword 'android'
+            storeFile file('C:\\platformkey\\PINE64\\platform.jks')
+        storePassword 'android'
+
+//            keyAlias 'platform' //HTP-BA55A KEY     // 파란색 큰 PC
+//            keyPassword 'android'
+//            storeFile file('C:\\platformkey\\HTP-BA55A\\ssl_kr.jks')
+//            storePassword 'android'
+
+//            keyAlias 'androiddebug' // PM510
+//            keyPassword 'android'
+//            storeFile file('C:\\platformkey\\PM510_PlatformKey\\platform.jks')
+//            storePassword 'android'
+
+            /* 안씀
+//            keyAlias 'androiddebugkey' //HTP-B3568A KEY    // 검은색 작은 PC
+//            keyPassword 'android'
+//            storeFile file('C:\\platformkey\\HTP-B3568A\\platform.jks')
+//            storePassword 'android'
+
+             */
+
+        }
+    }
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.joas.smartcharger"
+        minSdkVersion 22
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        signingConfig signingConfigs.config
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+    productFlavors {
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+        exclude("META-INF/*.kotlin_module")
+    }
+    useLibrary 'org.apache.http.legacy'
+
+}
+
+android {
+    packagingOptions {
+        exclude('META-INF/androidx/annotation/annotation/LICENSE.txt')
+    }
+}
+
+
+dependencies {
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation project(path: ':LS_ocppui_2ch')
+    implementation project(path: ':joasutils')
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+}
