@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"홈 탐색"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"위로 탐색"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"옵션 더보기"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"완료"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"전체 보기"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"앱 선택"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"사용 안함"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"사용"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"삭제"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"입력"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"스페이스바"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"검색..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"검색어 삭제"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"검색어"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"검색"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"검색어 보내기"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"음성 검색"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"공유 대상"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>와(과) 공유"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"접기"</string>
+    <string name="alreaychargingcard">현재 충전중인 회원카드입니다. 충전완료 후 다시 시도해 주세요.</string>
+    <string name="app_name">OCPP</string>
+    <string name="authfail">인증할 수 없는 회원카드입니다.\n처음 단계로 이동하시겠습니까?</string>
+    <string name="chargestopalarm">충전을 재시작 할 경우에는 재시작 버튼을 누르시고\n완료할 경우에는 충전 완료 버큰을 누르세요.</string>
+    <string name="chgtypestr_0">빌트인 동시 2채널(14kw_jc92b2-14-021,jc92b2-14-011)</string>
+    <string name="chgtypestr_1">스탠드 동시 2채널(14kw)</string>
+    <string name="chgtypestr_2">스탠드 분산 2채널(14kw)</string>
+    <string name="chgtypestr_3">스탠드 분산 2채널(17.6kw)</string>
+    <string name="chgtypestr_4">스탠드 1채널(14kw)</string>
+    <string name="chgtypestr_5">스탠드 1채널(17.6kw)</string>
+    <string name="chgtypestr_6">스탠드 1채널(22kw)</string>
+    <string name="chgtypestr_7">JC-92C1-7-01[4.3인치_7kw_알터]</string>
+    <string name="chgtypestr_8">JC-92B1-7-01[8\",7kw,ctype]</string>
+    <string name="chgtypestr_9">JC-92B1-11-01[4.3\",11kw,ctype]</string>
+    <string name="company_name">중앙제어 주식회사</string>
+    <string name="faultstr_423_0_emergency_bt">비상정지</string>
+    <string name="faultstr_423_10_temperature_err">내부온도 에러</string>
+    <string name="faultstr_423_11_module_control_comm_err">모듈통신에러</string>
+    <string name="faultstr_423_12_crtlboard1_ctrlboard2_comm_err">컨트롤보드간 통신 에러</string>
+    <string name="faultstr_423_13_meter_comm_err">계량기 통신 에러</string>
+    <string name="faultstr_423_14_meter_comm_err">계량기 통신 에러</string>
+    <string name="faultstr_423_15_inp_lowvoltage">입력저전압</string>
+    <string name="faultstr_423_1_mc1_err">MC1 에러</string>
+    <string name="faultstr_423_2_mc2_err">MC2 에러</string>
+    <string name="faultstr_423_3_mc3_err">MC3 에러</string>
+    <string name="faultstr_423_4_relay1_err">릴레이1 에러</string>
+    <string name="faultstr_423_5_relay2_err">릴레이2 에러</string>
+    <string name="faultstr_423_6_relay3_err">릴레이3 에러</string>
+    <string name="faultstr_423_7_relay4_err">릴레이4 에러</string>
+    <string name="faultstr_423_9_inp_overvoltage">입력과전압 오류</string>
+    <string name="faultstr_425_0_rcd_off">RCD 차단</string>
+    <string name="faultstr_425_1_ac_relay_err">AC 릴레이 에러</string>
+    <string name="faultstr_425_2_ac_leak">누설전류</string>
+    <string name="faultstr_425_3_ac_rcm_err">ac rcm 에러</string>
+    <string name="faultstr_425_4_out_overcurrent">출력과전류</string>
+    <string name="faultstr_425_5_ac_fg_err">AC FG 폴트</string>
+    <string name="faultstr_425_6_ac_cp_error">AC CP 에러</string>
+    <string msgid="146198913615257606" name="search_menu_title">"검색"</string>
+    <string name="serverfail">네트워크 상태가 불안정합니다.\n잠시 후 다시 시도해주세요.</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="str_auth_fail_content">"카드 인증에 실패하였습니다.
+확인하시고 다시 시도해 주시기 바랍니다."</string>
+    <string name="str_auth_fail_content_reserved">예약된 카드가 아닙니다.\n
+확인하시고 다시 시도해주세요.</string>
+    <string name="str_auth_fail_title">인증 실패</string>
+    <string name="str_hard_reset_content">원격에서 리셋 명령으로 인하여 재부팅이 진행됩니다</string>
+    <string name="str_hard_reset_title">Hard Reset</string>
+    <string name="str_soft_reset_content">원격에서 "Soft Reset" 명령으로 인하여 초기화됩니다</string>
+    <string name="str_soft_reset_title">Soft Reset</string>
+    <string name="str_tag_finish_charging">충전을 끝내시려면 카드를 테깅하세요</string>
+    <string name="string_ac3">AC3</string>
+    <string name="string_authwait">사용자 인증중입니다. 잠시만 기다려 주세요.</string>
+    <string name="string_basicset">기본세팅</string>
+    <string name="string_btype">B-Type</string>
+    <string name="string_cardtag">회원 카드를 테크해 주시기 바랍니다.</string>
+    <string name="string_charge_amount">충전량:</string>
+    <string name="string_charge_finishing">충전완료중입니다.\n
+잠시만 기다려주세요.</string>
+    <string name="string_charger_type">충전기 타입</string>
+    <string name="string_charging">충전중입니다</string>
+    <string name="string_charging_cost">충전 금액:</string>
+    <string name="string_charging_start">충전 시작</string>
+    <string name="string_charging_time">충전시간:</string>
+    <string name="string_clear">모두지우기</string>
+    <string name="string_comm_monitor">통신모니터</string>
+    <string name="string_conector_begin_charging">차량에 커넥터를 연결하고 시작 버턴을 눌러주세요.</string>
+    <string name="string_connect_car_wait">차량 연결을 기다리고 있습니다.</string>
+    <string name="string_connector_wait">충전 커넥터 연결 대기중입니다.</string>
+    <string name="string_ctype">C-Type</string>
+    <string name="string_dcchademo">DC 차데모</string>
+    <string name="string_dccombo">DC 콤보</string>
+    <string name="string_dsp_comm_err">UI-DSP(제어보드) 통신 오류</string>
+    <string name="string_emergency_title">비상 버턴을 해제하여 주세요</string>
+    <string name="string_fault_title">오류 발생!</string>
+    <string name="string_finish_app">App 종료</string>
+    <string name="string_finish_charging">충전종료</string>
+    <string name="string_hide">숨기기</string>
+    <string name="string_hide_kbd">키보드숨기기</string>
+    <string name="string_home">처음으로</string>
+    <string name="string_input_admin_password">관리자 암호를 입력하세요.</string>
+    <string name="string_maincv_btn">화면을 터치해주세요.</string>
+    <string name="string_meter_monitor">계량기모니터</string>
+    <string name="string_notice_chgfinish_alarm">충전 완료 알림을 받으시겠습니까?</string>
+    <string name="string_password_incorrect">패스워드가 잘못되었습니다.</string>
+    <string name="string_remote_started">원격 시작</string>
+    <string name="string_reserved">예약 대기중</string>
+    <string name="string_save">저장하기</string>
+    <string name="string_select_charging_method">적합한 충전 방식을 선택해 주십시요.</string>
+    <string name="string_select_paymethod">결제 유형을 선택해주세요.</string>
+    <string name="string_time_remain">남은시간:</string>
+    <string name="string_unavailable">충전기가 현재 중앙시스템의 의해 사용이 가능하지 않습니다. 다음에 이용해 주세요.</string>
+    <string name="sub_title_finish_charging">충전이 완료되었습니다. 커넥터를 분리하세요.</string>
+    <string name="timeover">인증을 위한 시간이 초과되었습니다.\n처음단계로 이동 하시겠습니까? </string>
+    <string name="title_activity_slow_iotvideo">MainActivity</string>
+    <string name="title_finish_charging">충전 종료</string>
+    <string name="title_name">전기자동차 충전기</string>
+</resources>

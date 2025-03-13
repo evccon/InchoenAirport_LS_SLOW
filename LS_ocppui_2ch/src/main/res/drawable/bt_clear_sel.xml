@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2017 JoongAng Control, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by Sungchul Choi <scchoi@joas.co.kr>, 22. 7. 13. 오후 5:21
+  ~
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/bt_clear_push"/>
+
+    <item
+        android:state_window_focused="false"
+        android:state_enabled="true"
+        android:drawable="@drawable/bt_clear_on"/>
+    <item
+        android:state_enabled="true"
+        android:drawable="@drawable/bt_clear_on"/>
+</selector>

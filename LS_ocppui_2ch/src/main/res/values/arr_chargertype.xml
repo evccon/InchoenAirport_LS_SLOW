@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2017 JoongAng Control, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by Sungchul Choi <scchoi@joas.co.kr>, 22. 6. 7. 오전 11:20
+  ~
+  -->
+
+<resources>
+    <string-array name="chargertyps_arr">
+        <item>빌트인 2ch(14kW)</item>
+        <item>스탠드 동시 2ch(14kW)</item>
+        <item>스탠드 분산 2ch(14kW)</item>
+        <item>스탠드 분산 2ch(17.6kW)</item>
+        <item>스탠드 1ch(14kW)</item>
+        <item>스탠드 1ch(17.6kW)</item>
+        <item>스탠드 1ch(22kW)</item>
+        <item>월박스 1CH(7kW Alter)</item>
+        <item>월박스 1CH(7kW B/C TYPE)</item>
+        <item>월박스 1CH(11kW B/C TYPE)</item>
+    </string-array>
+</resources>

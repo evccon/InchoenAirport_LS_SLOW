@@ -1,0 +1,25 @@
+<!--
+  ~ Copyright (C) 2017 JoongAng Control, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by Sungchul Choi <scchoi@joas.co.kr>, 19. 3. 13 오후 1:38
+  ~
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.joas.ocppui_LS_2ch" >
+
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.SET_TIME" />
+    <uses-permission android:name="android.permission.SET_TIME_ZONE" />
+
+    <application
+        android:label="SmartCharger">
+        <activity
+            android:name="com.joas.ocppui_LS_2ch.OCPPUI2CHActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|navigation|touchscreen"
+            android:label="SmartCharger"
+            android:theme="@style/AppTheme" />
+    </application>
+</manifest>
+

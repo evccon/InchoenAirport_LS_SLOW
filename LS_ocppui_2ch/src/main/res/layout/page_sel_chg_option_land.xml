@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2017 JoongAng Control, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by Sungchul Choi <scchoi@joas.co.kr>, 22. 6. 7. 오후 3:04
+  ~
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/texttitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="false"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/noto_med"
+                android:text="충전할 금액"
+                android:textColor="#00ffa5"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/constat2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="false"
+                android:layout_marginTop="60dp"
+                android:layout_toRightOf="@id/texttitle"
+                android:fontFamily="@font/noto_med"
+                android:text="을 입력해주세요"
+                android:textColor="#ffffff"
+                android:textSize="50sp" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <RelativeLayout
+                            android:id="@+id/lay1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginEnd="14dp"
+                            android:layout_marginBottom="24dp"
+                            android:background="@drawable/img_costbar"
+                            android:gravity="right|center_vertical">
+
+                            <TextView
+                                android:id="@+id/tvsetValue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="10dp"
+                                android:fontFamily="@font/noto_bold"
+                                android:gravity="center"
+                                android:includeFontPadding="true"
+                                android:text="10,000"
+                                android:textColor="#ffffffff"
+                                android:textSize="45sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvwon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@id/tvsetValue"
+                                android:layout_marginEnd="10dp"
+                                android:layout_toRightOf="@id/tvsetValue"
+                                android:fontFamily="@font/noto_bold"
+                                android:includeFontPadding="false"
+                                android:text="원"
+                                android:textAlignment="center"
+                                android:textColor="#ffffffff"
+                                android:textSize="30sp" />
+                        </RelativeLayout>
+
+                        <Button
+                            android:id="@+id/btClear"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@id/lay1"
+                            android:layout_centerInParent="true"
+                            android:layout_toRightOf="@id/lay1"
+                            android:background="@drawable/bt_clear_sel" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="false"
+                    android:layout_alignParentBottom="false"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <Button
+                            android:id="@+id/bt1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bt_costunit_sel"
+                            android:fontFamily="@font/noto_bold"
+                            android:text="+500"
+                            android:textAllCaps="false"
+                            android:textColor="#ffffff"
+                            android:textSize="40sp" />
+
+                        <Button
+                            android:id="@+id/bt2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:background="@drawable/bt_costunit_sel"
+                            android:fontFamily="@font/noto_bold"
+                            android:text="+500"
+                            android:textAllCaps="false"
+                            android:textColor="#ffffff"
+                            android:textSize="40sp" />
+
+                        <Button
+                            android:id="@+id/bt3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:background="@drawable/bt_costunit_sel"
+                            android:fontFamily="@font/noto_bold"
+                            android:text="+500"
+                            android:textAllCaps="false"
+                            android:textColor="#ffffff"
+                            android:textSize="40sp" />
+
+                        <Button
+                            android:id="@+id/bt4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:background="@drawable/bt_costunit_sel"
+                            android:fontFamily="@font/noto_bold"
+                            android:text="+500"
+                            android:textAllCaps="false"
+                            android:textColor="#ffffff"
+                            android:textSize="40sp" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <Button
+                            android:id="@+id/bt5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bt_costunit_sel"
+                            android:fontFamily="@font/noto_bold"
+                            android:text="+500"
+                            android:textAllCaps="false"
+                            android:textColor="#ffffff"
+                            android:textSize="40sp" />
+
+                        <Button
+                            android:id="@+id/bt6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:background="@drawable/bt_costunit_sel"
+                            android:fontFamily="@font/noto_bold"
+                            android:text="+500"
+                            android:textAllCaps="false"
+                            android:textColor="#ffffff"
+                            android:textSize="40sp" />
+
+                        <Button
+                            android:id="@+id/btFull_so"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:background="@drawable/bt_full_sel"
+                            android:fontFamily="@font/noto_bold" />
+
+                        <Button
+                            android:id="@+id/btSetOk_so"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:background="@drawable/bt_ok_sel"
+                            android:fontFamily="@font/noto_bold"
+                            android:textAllCaps="false" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textcost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="60dp"
+                    android:fontFamily="@font/noto_med"
+                    android:includeFontPadding="false"
+                    android:text="서비스 단가 : 000원"
+                    android:textAlignment="textStart"
+                    android:textColor="#ffffff"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/textcost2"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/textcost"
+                    android:layout_toRightOf="@id/textcost"
+                    android:fontFamily="@font/noto_med"
+                    android:includeFontPadding="false"
+                    android:text="예상 충전량 : 000.0 kWh"
+                    android:textAlignment="textStart"
+                    android:textColor="#ffffff"
+                    android:textSize="28sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

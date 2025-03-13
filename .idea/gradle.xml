@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="corretto-11" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Default_ocppcomm" />
+            <option value="$PROJECT_DIR$/Default_ocppui_1CH" />
+            <option value="$PROJECT_DIR$/Default_ocppui_2CH" />
+            <option value="$PROJECT_DIR$/EVN_ECSP_ocppcomm" />
+            <option value="$PROJECT_DIR$/EVN_ECSP_ocppui_Combined" />
+            <option value="$PROJECT_DIR$/IMKEV_ocppcomm" />
+            <option value="$PROJECT_DIR$/IMKEV_ocppui_Combined" />
+            <option value="$PROJECT_DIR$/IMKEV_ocppui_Combined_origin" />
+            <option value="$PROJECT_DIR$/KEVCS_ECSP_ocppcomm" />
+            <option value="$PROJECT_DIR$/KEVCS_ECSP_ocppui_Combined" />
+            <option value="$PROJECT_DIR$/LS_ocppcomm" />
+            <option value="$PROJECT_DIR$/LS_ocppui_2ch" />
+            <option value="$PROJECT_DIR$/NB_ocppcomm" />
+            <option value="$PROJECT_DIR$/NB_ocppui_Combined" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/chargev_ocppcomm" />
+            <option value="$PROJECT_DIR$/chargev_ocppui_Combined" />
+            <option value="$PROJECT_DIR$/charzin_ocppcomm" />
+            <option value="$PROJECT_DIR$/charzin_ocppui_1CH" />
+            <option value="$PROJECT_DIR$/evcomm" />
+            <option value="$PROJECT_DIR$/joashw" />
+            <option value="$PROJECT_DIR$/joasutils" />
+            <option value="$PROJECT_DIR$/posco_comm" />
+            <option value="$PROJECT_DIR$/posco_slow_charlcd" />
+            <option value="$PROJECT_DIR$/volvo_touch_2ch" />
+            <option value="$PROJECT_DIR$/volvo_touch_2ch_comm" />
+            <option value="$PROJECT_DIR$/wsclient" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

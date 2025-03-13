@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 JoongAng Control, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by Sungchul Choi <scchoi@joas.co.kr>, 17. 12. 5 오후 5:28
+  ~
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="136dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/texttitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="false"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/noto_med"
+                android:text="충전 진행 중"
+                android:textColor="#00ffa5"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/constat2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="false"
+                android:layout_marginTop="60dp"
+                android:layout_toRightOf="@id/texttitle"
+                android:fontFamily="@font/noto_med"
+                android:text="입니다"
+                android:textColor="#ffffff"
+                android:textSize="50sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.8"
+                        android:gravity="bottom"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="42dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/noto_regular"
+                            android:text="충전 전력"
+                            android:textColor="#ffffff"
+                            android:textSize="28sp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tvChargeKwhVal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="25dp"
+                                android:layout_toLeftOf="@id/tv"
+                                android:fontFamily="@font/noto_bold"
+                                android:gravity="right"
+                                android:includeFontPadding="false"
+                                android:text="24"
+                                android:textColor="#ffffff"
+                                android:textSize="45sp" />
+
+                            <TextView
+                                android:id="@+id/tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@id/tvChargeKwhVal"
+                                android:layout_alignParentEnd="true"
+                                android:fontFamily="@font/noto_bold"
+                                android:gravity="right"
+                                android:includeFontPadding="false"
+                                android:text="(kWh)"
+                                android:textColor="#ffffff"
+                                android:textSize="20sp" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="42dp"
+                            android:layout_marginTop="24dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/noto_regular"
+                            android:text="충전 금액"
+                            android:textColor="#ffffffff"
+                            android:textSize="28sp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tvChargeCost"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:layout_marginEnd="25dp"
+                                android:layout_toLeftOf="@id/tv2"
+                                android:fontFamily="@font/noto_bold"
+                                android:foregroundGravity="right"
+                                android:gravity="right"
+                                android:includeFontPadding="false"
+                                android:text="16,000"
+                                android:textColor="#ffffff"
+                                android:textSize="45sp" />
+
+                            <TextView
+                                android:id="@+id/tv2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@id/tvChargeCost"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="22dp"
+                                android:fontFamily="@font/noto_bold"
+                                android:gravity="right"
+                                android:includeFontPadding="false"
+                                android:text="(원)"
+                                android:textColor="#ffffff"
+                                android:textSize="20sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/imgcharging"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/img_charging0"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/noto_bold"
+                        android:text="충전중"
+                        android:textColor="#00ffa5"
+                        android:textSize="60sp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btCharingFinishTag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="210dp"
+                    android:background="@drawable/bt_stopask_land_sel" />
+
+                <TextView
+                    android:id="@+id/tvChargeTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="180dp"
+                    android:fontFamily="@font/noto_med"
+                    android:includeFontPadding="false"
+                    android:text="00:00:00"
+                    android:textColor="#94ABC5"
+                    android:textSize="45sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

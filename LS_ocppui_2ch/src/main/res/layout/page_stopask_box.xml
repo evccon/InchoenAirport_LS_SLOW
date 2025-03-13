@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 JoongAng Control, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by Sungchul Choi <scchoi@joas.co.kr>, 17. 12. 5 오후 4:37
+  ~
+  -->
+
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:gravity="center"
+    android:padding="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#b9000000"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/alarmframe"
+            android:layout_width="900dp"
+            android:layout_height="570dp"
+            android:layout_centerInParent="false"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/popupbackground"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/noto_med"
+                android:text="충전 중지"
+                android:textColor="#ffffff"
+                android:textSize="60sp" />
+
+            <TextView
+                android:id="@+id/tvMessageBoxContent2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/noto_regular"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/chargestopalarm"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="70dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btstopaskNo"
+                    android:layout_width="309dp"
+                    android:layout_height="91.5dp"
+                    android:layout_marginEnd="70dp"
+                    android:background="@drawable/bt_keep_sel" />
+
+                <Button
+                    android:id="@+id/btstopaskYes"
+                    android:layout_width="309dp"
+                    android:layout_height="91.5dp"
+                    android:background="@drawable/bt_stop_sel" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.widget.RelativeLayout>
